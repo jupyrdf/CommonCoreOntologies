@@ -1,0 +1,1034 @@
+@prefix bfo: <http://purl.obolibrary.org/obo/> .
+@prefix cco: <http://www.ontologyrepository.com/CommonCoreOntologies/> .
+@prefix mro: <http://www.ontologyrepository.com/CommonCoreOntologies/ModalRelationOntology/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+mro:BFO_0000050 a owl:ObjectProperty ;
+    rdfs:label "part of"@en ;
+    owl:equivalentProperty bfo:BFO_0000050 .
+
+mro:BFO_0000051 a owl:ObjectProperty ;
+    rdfs:label "has part"@en ;
+    owl:equivalentProperty bfo:BFO_0000051 .
+
+mro:BFO_0000054 a owl:ObjectProperty ;
+    rdfs:label "realized in"@en ;
+    owl:equivalentProperty bfo:BFO_0000054 .
+
+mro:BFO_0000055 a owl:ObjectProperty ;
+    rdfs:label "realizes"@en ;
+    owl:equivalentProperty bfo:BFO_0000055 .
+
+mro:BFO_0000066 a owl:ObjectProperty ;
+    rdfs:label "occurs in"@en ;
+    owl:equivalentProperty bfo:BFO_0000066 .
+
+mro:BFO_0000067 a owl:ObjectProperty ;
+    rdfs:label "contains process"@en ;
+    owl:equivalentProperty bfo:BFO_0000067 .
+
+mro:RO_0000052 a owl:ObjectProperty ;
+    rdfs:label "inheres in"@en ;
+    owl:equivalentProperty bfo:RO_0000052 .
+
+mro:RO_0000053 a owl:ObjectProperty ;
+    rdfs:label "bearer of"@en ;
+    owl:equivalentProperty bfo:RO_0000053 .
+
+mro:RO_0000056 a owl:ObjectProperty ;
+    rdfs:label "participates in"@en ;
+    owl:equivalentProperty bfo:RO_0000056 .
+
+mro:RO_0000057 a owl:ObjectProperty ;
+    rdfs:label "has participant"@en ;
+    owl:equivalentProperty bfo:RO_0000057 .
+
+mro:RO_0000058 a owl:ObjectProperty ;
+    rdfs:label "is concretized as"@en ;
+    owl:equivalentProperty bfo:RO_0000058 .
+
+mro:RO_0000059 a owl:ObjectProperty ;
+    rdfs:label "concretizes"@en ;
+    owl:equivalentProperty bfo:RO_0000059 .
+
+mro:RO_0000079 a owl:ObjectProperty ;
+    rdfs:label "function of"@en ;
+    owl:equivalentProperty bfo:RO_0000079 .
+
+mro:RO_0000080 a owl:ObjectProperty ;
+    rdfs:label "quality of"@en ;
+    owl:equivalentProperty bfo:RO_0000080 .
+
+mro:RO_0000081 a owl:ObjectProperty ;
+    rdfs:label "role of"@en ;
+    owl:equivalentProperty bfo:RO_0000081 .
+
+mro:RO_0000085 a owl:ObjectProperty ;
+    rdfs:label "has function"@en ;
+    owl:equivalentProperty bfo:RO_0000085 .
+
+mro:RO_0000086 a owl:ObjectProperty ;
+    rdfs:label "has quality"@en ;
+    owl:equivalentProperty bfo:RO_0000086 .
+
+mro:RO_0000087 a owl:ObjectProperty ;
+    rdfs:label "has role"@en ;
+    owl:equivalentProperty bfo:RO_0000087 .
+
+mro:RO_0000091 a owl:ObjectProperty ;
+    rdfs:label "has disposition"@en ;
+    owl:equivalentProperty bfo:RO_0000091 .
+
+mro:RO_0000092 a owl:ObjectProperty ;
+    rdfs:label "disposition of"@en ;
+    owl:equivalentProperty bfo:RO_0000092 .
+
+mro:RO_0001000 a owl:ObjectProperty ;
+    rdfs:label "derives from"@en ;
+    owl:equivalentProperty bfo:RO_0001000 .
+
+mro:RO_0001001 a owl:ObjectProperty ;
+    rdfs:label "derives into"@en ;
+    owl:equivalentProperty bfo:RO_0001001 .
+
+mro:RO_0001015 a owl:ObjectProperty ;
+    rdfs:label "location of"@en ;
+    owl:equivalentProperty bfo:RO_0001015 .
+
+mro:RO_0001018 a owl:ObjectProperty ;
+    rdfs:label "contained in"@en ;
+    owl:equivalentProperty bfo:RO_0001018 .
+
+mro:RO_0001019 a owl:ObjectProperty ;
+    rdfs:label "contains"@en ;
+    owl:equivalentProperty bfo:RO_0001019 .
+
+mro:RO_0001025 a owl:ObjectProperty ;
+    rdfs:label "located in"@en ;
+    owl:equivalentProperty bfo:RO_0001025 .
+
+mro:RO_0002000 a owl:ObjectProperty ;
+    rdfs:label "2D boundary of"@en ;
+    owl:equivalentProperty bfo:RO_0002000 .
+
+mro:RO_0002002 a owl:ObjectProperty ;
+    rdfs:label "has 2D boundary"@en ;
+    owl:equivalentProperty bfo:RO_0002002 .
+
+mro:RO_0002350 a owl:ObjectProperty ;
+    rdfs:label "member of"@en ;
+    owl:equivalentProperty bfo:RO_0002350 .
+
+mro:RO_0002351 a owl:ObjectProperty ;
+    rdfs:label "has member"@en ;
+    owl:equivalentProperty bfo:RO_0002351 .
+
+mro:RO_0010001 a owl:ObjectProperty ;
+    rdfs:label "generically depends on" ;
+    owl:equivalentProperty bfo:RO_0010001 .
+
+mro:RO_0010002 a owl:ObjectProperty ;
+    rdfs:label "is carrier of"@en ;
+    owl:equivalentProperty bfo:RO_0010002 .
+
+mro:accessory_in a owl:ObjectProperty ;
+    rdfs:label "accessory in"@en ;
+    owl:equivalentProperty cco:accessory_in .
+
+mro:accomplice_in a owl:ObjectProperty ;
+    rdfs:label "accomplice in"@en ;
+    owl:equivalentProperty cco:accomplice_in .
+
+mro:affects a owl:ObjectProperty ;
+    rdfs:label "affects"@en ;
+    owl:equivalentProperty cco:affects .
+
+mro:agent_in a owl:ObjectProperty ;
+    rdfs:label "agent in"@en ;
+    owl:equivalentProperty cco:agent_in .
+
+mro:aggregate_bearer_of a owl:ObjectProperty ;
+    rdfs:label "aggregate bearer of"@en ;
+    owl:equivalentProperty cco:aggregate_bearer_of .
+
+mro:aggregate_has_capability a owl:ObjectProperty ;
+    rdfs:label "aggregate has capability"@en ;
+    owl:equivalentProperty cco:aggregate_has_capability .
+
+mro:aggregate_has_disposition a owl:ObjectProperty ;
+    rdfs:label "aggregate has disposition"@en ;
+    owl:equivalentProperty cco:aggregate_has_disposition .
+
+mro:aggregate_has_quality a owl:ObjectProperty ;
+    rdfs:label "aggregate has quality"@en ;
+    owl:equivalentProperty cco:aggregate_has_quality .
+
+mro:aggregate_has_role a owl:ObjectProperty ;
+    rdfs:label "aggregate has role"@en ;
+    owl:equivalentProperty cco:aggregate_has_role .
+
+mro:capability_of a owl:ObjectProperty ;
+    rdfs:label "capability of"@en ;
+    owl:equivalentProperty cco:capability_of .
+
+mro:capability_of_aggregate a owl:ObjectProperty ;
+    rdfs:label "capability of aggregate"@en ;
+    owl:equivalentProperty cco:capability_of_aggregate .
+
+mro:caused_by a owl:ObjectProperty ;
+    rdfs:label "caused by"@en ;
+    owl:equivalentProperty cco:caused_by .
+
+mro:coincides_with a owl:ObjectProperty ;
+    rdfs:label "coincides with"@en ;
+    owl:equivalentProperty cco:coincides_with .
+
+mro:condition_described_by a owl:ObjectProperty ;
+    rdfs:label "condition described by"@en ;
+    owl:equivalentProperty cco:condition_described_by .
+
+mro:connected_with a owl:ObjectProperty ;
+    rdfs:label "connected with"@en ;
+    owl:equivalentProperty cco:connected_with .
+
+mro:delimits a owl:ObjectProperty ;
+    rdfs:label "delimits"@en ;
+    owl:equivalentProperty cco:delimits .
+
+mro:described_by a owl:ObjectProperty ;
+    rdfs:label "described by"@en ;
+    owl:equivalentProperty cco:described_by .
+
+mro:describes a owl:ObjectProperty ;
+    rdfs:label "describes"@en ;
+    owl:equivalentProperty cco:describes .
+
+mro:describes_condition a owl:ObjectProperty ;
+    rdfs:label "describes condition"@en ;
+    owl:equivalentProperty cco:describes_condition .
+
+mro:designated_by a owl:ObjectProperty ;
+    rdfs:label "designated by"@en ;
+    owl:equivalentProperty cco:designated_by .
+
+mro:designates a owl:ObjectProperty ;
+    rdfs:label "designates"@en ;
+    owl:equivalentProperty cco:designates .
+
+mro:disconnected_with a owl:ObjectProperty ;
+    rdfs:label "disconnected with"@en ;
+    owl:equivalentProperty cco:disconnected_with .
+
+mro:disposition_of_aggregate a owl:ObjectProperty ;
+    rdfs:label "disposition of aggregate"@en ;
+    owl:equivalentProperty cco:disposition_of_aggregate .
+
+mro:externally_connects_with a owl:ObjectProperty ;
+    rdfs:label "externally connects with"@en ;
+    owl:equivalentProperty cco:externally_connects_with .
+
+mro:has_accessory a owl:ObjectProperty ;
+    rdfs:label "has accessory"@en ;
+    owl:equivalentProperty cco:has_accessory .
+
+mro:has_accomplice a owl:ObjectProperty ;
+    rdfs:label "has accomplice"@en ;
+    owl:equivalentProperty cco:has_accomplice .
+
+mro:has_affiliate a owl:ObjectProperty ;
+    rdfs:label "has affiliate"@en ;
+    owl:equivalentProperty cco:has_affiliate .
+
+mro:has_agent a owl:ObjectProperty ;
+    rdfs:label "has agent"@en ;
+    owl:equivalentProperty cco:has_agent .
+
+mro:has_aunt a owl:ObjectProperty ;
+    rdfs:label "has aunt"@en ;
+    owl:equivalentProperty cco:has_aunt .
+
+mro:has_brother a owl:ObjectProperty ;
+    rdfs:label "has brother"@en ;
+    owl:equivalentProperty cco:has_brother .
+
+mro:has_brother_in_law a owl:ObjectProperty ;
+    rdfs:label "has brother in law"@en ;
+    owl:equivalentProperty cco:has_brother_in_law .
+
+mro:has_capability a owl:ObjectProperty ;
+    rdfs:label "has capability"@en ;
+    owl:equivalentProperty cco:has_capability .
+
+mro:has_daughter a owl:ObjectProperty ;
+    rdfs:label "has daughter"@en ;
+    owl:equivalentProperty cco:has_daughter .
+
+mro:has_daughter_in_law a owl:ObjectProperty ;
+    rdfs:label "has daughter in law"@en ;
+    owl:equivalentProperty cco:has_daughter_in_law .
+
+mro:has_ending_instant a owl:ObjectProperty ;
+    rdfs:label "has ending instant"@en ;
+    owl:equivalentProperty cco:has_ending_instant .
+
+mro:has_familial_relationship_to a owl:ObjectProperty ;
+    rdfs:label "has familial relationship to"@en ;
+    owl:equivalentProperty cco:has_familial_relationship_to .
+
+mro:has_father a owl:ObjectProperty ;
+    rdfs:label "has father"@en ;
+    owl:equivalentProperty cco:has_father .
+
+mro:has_father_in_law a owl:ObjectProperty ;
+    rdfs:label "has father in law"@en ;
+    owl:equivalentProperty cco:has_father_in_law .
+
+mro:has_granddaughter a owl:ObjectProperty ;
+    rdfs:label "has granddaughter"@en ;
+    owl:equivalentProperty cco:has_granddaughter .
+
+mro:has_grandfather a owl:ObjectProperty ;
+    rdfs:label "has grandfather"@en ;
+    owl:equivalentProperty cco:has_grandfather .
+
+mro:has_grandmother a owl:ObjectProperty ;
+    rdfs:label "has grandmother"@en ;
+    owl:equivalentProperty cco:has_grandmother .
+
+mro:has_grandson a owl:ObjectProperty ;
+    rdfs:label "has grandson"@en ;
+    owl:equivalentProperty cco:has_grandson .
+
+mro:has_half_brother a owl:ObjectProperty ;
+    rdfs:label "has half brother"@en ;
+    owl:equivalentProperty cco:has_half_brother .
+
+mro:has_half_sister a owl:ObjectProperty ;
+    rdfs:label "has half sister"@en ;
+    owl:equivalentProperty cco:has_half_sister .
+
+mro:has_husband a owl:ObjectProperty ;
+    rdfs:label "has husband"@en ;
+    owl:equivalentProperty cco:has_husband .
+
+mro:has_input a owl:ObjectProperty ;
+    rdfs:label "has input"@en ;
+    owl:equivalentProperty cco:has_input .
+
+mro:has_inside_instant a owl:ObjectProperty ;
+    rdfs:label "has inside instant"@en ;
+    owl:equivalentProperty cco:has_inside_instant .
+
+mro:has_inside_interval a owl:ObjectProperty ;
+    rdfs:label "has inside interval"@en ;
+    owl:equivalentProperty cco:has_inside_interval .
+
+mro:has_maternal_aunt a owl:ObjectProperty ;
+    rdfs:label "has maternal aunt"@en ;
+    owl:equivalentProperty cco:has_maternal_aunt .
+
+mro:has_maternal_first_cousin a owl:ObjectProperty ;
+    rdfs:label "has maternal first cousin"@en ;
+    owl:equivalentProperty cco:has_maternal_first_cousin .
+
+mro:has_maternal_grandfather a owl:ObjectProperty ;
+    rdfs:label "has maternal grandfather"@en ;
+    owl:equivalentProperty cco:has_maternal_grandfather .
+
+mro:has_maternal_grandmother a owl:ObjectProperty ;
+    rdfs:label "has maternal grandmother"@en ;
+    owl:equivalentProperty cco:has_maternal_grandmother .
+
+mro:has_maternal_uncle a owl:ObjectProperty ;
+    rdfs:label "has maternal uncle"@en ;
+    owl:equivalentProperty cco:has_maternal_uncle .
+
+mro:has_member_of_located_in a owl:ObjectProperty ;
+    rdfs:label "has member of located in"@en ;
+    owl:equivalentProperty cco:has_member_of_located_in .
+
+mro:has_mother a owl:ObjectProperty ;
+    rdfs:label "has mother"@en ;
+    owl:equivalentProperty cco:has_mother .
+
+mro:has_mother_in_law a owl:ObjectProperty ;
+    rdfs:label "has mother in law"@en ;
+    owl:equivalentProperty cco:has_mother_in_law .
+
+mro:has_nephew a owl:ObjectProperty ;
+    rdfs:label "has nephew"@en ;
+    owl:equivalentProperty cco:has_nephew .
+
+mro:has_niece a owl:ObjectProperty ;
+    rdfs:label "has niece"@en ;
+    owl:equivalentProperty cco:has_niece .
+
+mro:has_nontangential_part a owl:ObjectProperty ;
+    rdfs:label "has nontangential part"@en ;
+    owl:equivalentProperty cco:has_nontangential_part .
+
+mro:has_object a owl:ObjectProperty ;
+    rdfs:label "has object"@en ;
+    owl:equivalentProperty cco:has_object .
+
+mro:has_organizational_context a owl:ObjectProperty ;
+    rdfs:label "has organizational context"@en ;
+    owl:equivalentProperty cco:has_organizational_context .
+
+mro:has_output a owl:ObjectProperty ;
+    rdfs:label "has output"@en ;
+    owl:equivalentProperty cco:has_output .
+
+mro:has_parent a owl:ObjectProperty ;
+    rdfs:label "has parent"@en ;
+    owl:equivalentProperty cco:has_parent .
+
+mro:has_paternal_aunt a owl:ObjectProperty ;
+    rdfs:label "has paternal aunt"@en ;
+    owl:equivalentProperty cco:has_paternal_aunt .
+
+mro:has_paternal_first_cousin a owl:ObjectProperty ;
+    rdfs:label "has paternal first cousin"@en ;
+    owl:equivalentProperty cco:has_paternal_first_cousin .
+
+mro:has_paternal_grandfather a owl:ObjectProperty ;
+    rdfs:label "has paternal grandfather"@en ;
+    owl:equivalentProperty cco:has_paternal_grandfather .
+
+mro:has_paternal_grandmother a owl:ObjectProperty ;
+    rdfs:label "has paternal grandmother"@en ;
+    owl:equivalentProperty cco:has_paternal_grandmother .
+
+mro:has_paternal_uncle a owl:ObjectProperty ;
+    rdfs:label "has paternal uncle"@en ;
+    owl:equivalentProperty cco:has_paternal_uncle .
+
+mro:has_process_part a owl:ObjectProperty ;
+    rdfs:label "has process part"@en ;
+    owl:equivalentProperty cco:has_process_part .
+
+mro:has_recipient a owl:ObjectProperty ;
+    rdfs:label "has recipient"@en ;
+    owl:equivalentProperty cco:has_recipient .
+
+mro:has_sender a owl:ObjectProperty ;
+    rdfs:label "has sender"@en ;
+    owl:equivalentProperty cco:has_sender .
+
+mro:has_sister a owl:ObjectProperty ;
+    rdfs:label "has sister"@en ;
+    owl:equivalentProperty cco:has_sister .
+
+mro:has_sister_in_law a owl:ObjectProperty ;
+    rdfs:label "has sister in law"@en ;
+    owl:equivalentProperty cco:has_sister_in_law .
+
+mro:has_son a owl:ObjectProperty ;
+    rdfs:label "has son"@en ;
+    owl:equivalentProperty cco:has_son .
+
+mro:has_son_in_law a owl:ObjectProperty ;
+    rdfs:label "has son in law"@en ;
+    owl:equivalentProperty cco:has_son_in_law .
+
+mro:has_spatial_part a owl:ObjectProperty ;
+    rdfs:label "has spatial part"@en ;
+    owl:equivalentProperty cco:has_spatial_part .
+
+mro:has_starting_instant a owl:ObjectProperty ;
+    rdfs:label "has starting instant"@en ;
+    owl:equivalentProperty cco:has_starting_instant .
+
+mro:has_step_brother a owl:ObjectProperty ;
+    rdfs:label "has step brother"@en ;
+    owl:equivalentProperty cco:has_step_brother .
+
+mro:has_step_sister a owl:ObjectProperty ;
+    rdfs:label "has step sister"@en ;
+    owl:equivalentProperty cco:has_step_sister .
+
+mro:has_subordinate_role a owl:ObjectProperty ;
+    rdfs:label "has subordinate role"@en ;
+    owl:equivalentProperty cco:has_subordinate_role .
+
+mro:has_subsidiary a owl:ObjectProperty ;
+    rdfs:label "has subsidiary"@en ;
+    owl:equivalentProperty cco:has_subsidiary .
+
+mro:has_tangential_part a owl:ObjectProperty ;
+    rdfs:label "has tangential part"@en ;
+    owl:equivalentProperty cco:has_tangential_part .
+
+mro:has_uncle a owl:ObjectProperty ;
+    rdfs:label "has uncle"@en ;
+    owl:equivalentProperty cco:has_uncle .
+
+mro:has_wife a owl:ObjectProperty ;
+    rdfs:label "has wife"@en ;
+    owl:equivalentProperty cco:has_wife .
+
+mro:inheres_in_aggregate a owl:ObjectProperty ;
+    rdfs:label "inheres in aggregate"@en ;
+    owl:equivalentProperty cco:inheres_in_aggregate .
+
+mro:instant_is_after a owl:ObjectProperty ;
+    rdfs:label "instant is after"@en ;
+    owl:equivalentProperty cco:instant_is_after .
+
+mro:instant_is_before a owl:ObjectProperty ;
+    rdfs:label "instant is before"@en ;
+    owl:equivalentProperty cco:instant_is_before .
+
+mro:interval_contained_by a owl:ObjectProperty ;
+    rdfs:label "interval contained by"@en ;
+    owl:equivalentProperty cco:interval_contained_by .
+
+mro:interval_contains a owl:ObjectProperty ;
+    rdfs:label "interval contains"@en ;
+    owl:equivalentProperty cco:interval_contains .
+
+mro:interval_disjoint a owl:ObjectProperty ;
+    rdfs:label "interval disjoint"@en ;
+    owl:equivalentProperty cco:interval_disjoint .
+
+mro:interval_during a owl:ObjectProperty ;
+    rdfs:label "interval during"@en ;
+    owl:equivalentProperty cco:interval_during .
+
+mro:interval_equals a owl:ObjectProperty ;
+    rdfs:label "interval equals"@en ;
+    owl:equivalentProperty cco:interval_equals .
+
+mro:interval_finished_by a owl:ObjectProperty ;
+    rdfs:label "interval finished by"@en ;
+    owl:equivalentProperty cco:interval_finished_by .
+
+mro:interval_finishes a owl:ObjectProperty ;
+    rdfs:label "interval finishes"@en ;
+    owl:equivalentProperty cco:interval_finishes .
+
+mro:interval_is_after a owl:ObjectProperty ;
+    rdfs:label "interval is after"@en ;
+    owl:equivalentProperty cco:interval_is_after .
+
+mro:interval_is_before a owl:ObjectProperty ;
+    rdfs:label "interval is before"@en ;
+    owl:equivalentProperty cco:interval_is_before .
+
+mro:interval_meets a owl:ObjectProperty ;
+    rdfs:label "interval meets"@en ;
+    owl:equivalentProperty cco:interval_meets .
+
+mro:interval_met_by a owl:ObjectProperty ;
+    rdfs:label "interval met by"@en ;
+    owl:equivalentProperty cco:interval_met_by .
+
+mro:interval_overlapped_by a owl:ObjectProperty ;
+    rdfs:label "interval overlapped by"@en ;
+    owl:equivalentProperty cco:interval_overlapped_by .
+
+mro:interval_overlaps a owl:ObjectProperty ;
+    rdfs:label "interval overlaps"@en ;
+    owl:equivalentProperty cco:interval_overlaps .
+
+mro:interval_started_by a owl:ObjectProperty ;
+    rdfs:label "interval started by"@en ;
+    owl:equivalentProperty cco:interval_started_by .
+
+mro:interval_starts a owl:ObjectProperty ;
+    rdfs:label "interval starts"@en ;
+    owl:equivalentProperty cco:interval_starts .
+
+mro:is_a_interval_measurement_of a owl:ObjectProperty ;
+    rdfs:label "is a interval measurement of"@en ;
+    owl:equivalentProperty cco:is_a_interval_measurement_of .
+
+mro:is_a_measurement_of a owl:ObjectProperty ;
+    rdfs:label "is a measurement of"@en ;
+    owl:equivalentProperty cco:is_a_measurement_of .
+
+mro:is_a_nominal_measurement_of a owl:ObjectProperty ;
+    rdfs:label "is a nominal measurement of"@en ;
+    owl:equivalentProperty cco:is_a_nominal_measurement_of .
+
+mro:is_a_ordinal_measurement_of a owl:ObjectProperty ;
+    rdfs:label "is a ordinal measurement of"@en ;
+    owl:equivalentProperty cco:is_a_ordinal_measurement_of .
+
+mro:is_a_ratio_measurement_of a owl:ObjectProperty ;
+    rdfs:label "is a ratio measurement of"@en ;
+    owl:equivalentProperty cco:is_a_ratio_measurement_of .
+
+mro:is_about a owl:ObjectProperty ;
+    rdfs:label "is about"@en ;
+    owl:equivalentProperty cco:is_about .
+
+mro:is_affected_by a owl:ObjectProperty ;
+    rdfs:label "is affected by"@en ;
+    owl:equivalentProperty cco:is_affected_by .
+
+mro:is_affiliated_with a owl:ObjectProperty ;
+    rdfs:label "is affiliated with"@en ;
+    owl:equivalentProperty cco:is_affiliated_with .
+
+mro:is_ancestor_of a owl:ObjectProperty ;
+    rdfs:label "is ancestor of"@en ;
+    owl:equivalentProperty cco:is_ancestor_of .
+
+mro:is_aunt_of a owl:ObjectProperty ;
+    rdfs:label "is aunt of"@en ;
+    owl:equivalentProperty cco:is_aunt_of .
+
+mro:is_brother_in_law_of a owl:ObjectProperty ;
+    rdfs:label "is brother-in-law of"@en ;
+    owl:equivalentProperty cco:is_brother_in_law_of .
+
+mro:is_brother_of a owl:ObjectProperty ;
+    rdfs:label "is brother of"@en ;
+    owl:equivalentProperty cco:is_brother_of .
+
+mro:is_cause_of a owl:ObjectProperty ;
+    rdfs:label "is cause of"@en ;
+    owl:equivalentProperty cco:is_cause_of .
+
+mro:is_child_of a owl:ObjectProperty ;
+    rdfs:label "is child of"@en ;
+    owl:equivalentProperty cco:is_child_of .
+
+mro:is_daughter_in_law_of a owl:ObjectProperty ;
+    rdfs:label "is daughter in-law of"@en ;
+    owl:equivalentProperty cco:is_daughter_in_law_of .
+
+mro:is_daughter_of a owl:ObjectProperty ;
+    rdfs:label "is daughter of"@en ;
+    owl:equivalentProperty cco:is_daughter_of .
+
+mro:is_delimited_by a owl:ObjectProperty ;
+    rdfs:label "is delimited by"@en ;
+    owl:equivalentProperty cco:is_delimited_by .
+
+mro:is_descendent_of a owl:ObjectProperty ;
+    rdfs:label "is descendent of"@en ;
+    owl:equivalentProperty cco:is_descendent_of .
+
+mro:is_ending_instant_of a owl:ObjectProperty ;
+    rdfs:label "is ending instant of"@en ;
+    owl:equivalentProperty cco:is_ending_instant_of .
+
+mro:is_excerpted_from a owl:ObjectProperty ;
+    rdfs:label "is excerpted from"@en ;
+    owl:equivalentProperty cco:is_excerpted_from .
+
+mro:is_father_in_law_of a owl:ObjectProperty ;
+    rdfs:label "is father in-law of"@en ;
+    owl:equivalentProperty cco:is_father_in_law_of .
+
+mro:is_father_of a owl:ObjectProperty ;
+    rdfs:label "is father of"@en ;
+    owl:equivalentProperty cco:is_father_of .
+
+mro:is_first_cousin_of a owl:ObjectProperty ;
+    rdfs:label "is first cousin of"@en ;
+    owl:equivalentProperty cco:is_first_cousin_of .
+
+mro:is_geospatial_coordinate_reference_system_of a owl:ObjectProperty ;
+    rdfs:label "is geospatial coordinate reference system of"@en ;
+    owl:equivalentProperty cco:is_geospatial_coordinate_reference_system_of .
+
+mro:is_grandchild_of a owl:ObjectProperty ;
+    rdfs:label "is grandchild of"@en ;
+    owl:equivalentProperty cco:is_grandchild_of .
+
+mro:is_granddaughter_of a owl:ObjectProperty ;
+    rdfs:label "is granddaughter of"@en ;
+    owl:equivalentProperty cco:is_granddaughter_of .
+
+mro:is_grandfather_of a owl:ObjectProperty ;
+    rdfs:label "is grandfather of"@en ;
+    owl:equivalentProperty cco:is_grandfather_of .
+
+mro:is_grandmother_of a owl:ObjectProperty ;
+    rdfs:label "is grandmother of"@en ;
+    owl:equivalentProperty cco:is_grandmother_of .
+
+mro:is_grandparent_of a owl:ObjectProperty ;
+    rdfs:label "is grandparent of"@en ;
+    owl:equivalentProperty cco:is_grandparent_of .
+
+mro:is_grandson_of a owl:ObjectProperty ;
+    rdfs:label "is grandson of"@en ;
+    owl:equivalentProperty cco:is_grandson_of .
+
+mro:is_half_brother_of a owl:ObjectProperty ;
+    rdfs:label "is half-brother of"@en ;
+    owl:equivalentProperty cco:is_half_brother_of .
+
+mro:is_half_sibling_of a owl:ObjectProperty ;
+    rdfs:label "is half-sibling of"@en ;
+    owl:equivalentProperty cco:is_half_sibling_of .
+
+mro:is_half_sister_of a owl:ObjectProperty ;
+    rdfs:label "is half sister of"@en ;
+    owl:equivalentProperty cco:is_half_sister_of .
+
+mro:is_husband_of a owl:ObjectProperty ;
+    rdfs:label "is husband of"@en ;
+    owl:equivalentProperty cco:is_husband_of .
+
+mro:is_in_law_of a owl:ObjectProperty ;
+    rdfs:label "is in-law of"@en ;
+    owl:equivalentProperty cco:is_in_law_of .
+
+mro:is_input_of a owl:ObjectProperty ;
+    rdfs:label "is input of"@en ;
+    owl:equivalentProperty cco:is_input_of .
+
+mro:is_inside_instant_of a owl:ObjectProperty ;
+    rdfs:label "is inside instant of"@en ;
+    owl:equivalentProperty cco:is_inside_instant_of .
+
+mro:is_made_of a owl:ObjectProperty ;
+    rdfs:label "is made of"@en ;
+    owl:equivalentProperty cco:is_made_of .
+
+mro:is_material_of a owl:ObjectProperty ;
+    rdfs:label "is material of"@en ;
+    owl:equivalentProperty cco:is_material_of .
+
+mro:is_maternal_aunt_of a owl:ObjectProperty ;
+    rdfs:label "is maternal aunt of"@en ;
+    owl:equivalentProperty cco:is_maternal_aunt_of .
+
+mro:is_maternal_first_cousin_of a owl:ObjectProperty ;
+    rdfs:label "is maternal first cousin of"@en ;
+    owl:equivalentProperty cco:is_maternal_first_cousin_of .
+
+mro:is_maternal_grandfather_of a owl:ObjectProperty ;
+    rdfs:label "is maternal grandfather of"@en ;
+    owl:equivalentProperty cco:is_maternal_grandfather_of .
+
+mro:is_maternal_grandmother_of a owl:ObjectProperty ;
+    rdfs:label "is maternal grandmother of"@en ;
+    owl:equivalentProperty cco:is_maternal_grandmother_of .
+
+mro:is_maternal_uncle_of a owl:ObjectProperty ;
+    rdfs:label "is maternal uncle of"@en ;
+    owl:equivalentProperty cco:is_maternal_uncle_of .
+
+mro:is_measured_by a owl:ObjectProperty ;
+    rdfs:label "is measured by"@en ;
+    owl:equivalentProperty cco:is_measured_by .
+
+mro:is_measured_by_interval a owl:ObjectProperty ;
+    rdfs:label "is measured by interval"@en ;
+    owl:equivalentProperty cco:is_measured_by_interval .
+
+mro:is_measured_by_nominal a owl:ObjectProperty ;
+    rdfs:label "is measured by nominal"@en ;
+    owl:equivalentProperty cco:is_measured_by_nominal .
+
+mro:is_measured_by_ordinal a owl:ObjectProperty ;
+    rdfs:label "is measured by ordinal"@en ;
+    owl:equivalentProperty cco:is_measured_by_ordinal .
+
+mro:is_measured_by_ratio a owl:ObjectProperty ;
+    rdfs:label "is measured by ratio"@en ;
+    owl:equivalentProperty cco:is_measured_by_ratio .
+
+mro:is_measurement_unit_of a owl:ObjectProperty ;
+    rdfs:label "is measurement unit of"@en ;
+    owl:equivalentProperty cco:is_measurement_unit_of .
+
+mro:is_mention_of a owl:ObjectProperty ;
+    rdfs:label "is mention of"@en ;
+    owl:equivalentProperty cco:is_mention_of .
+
+mro:is_mentioned_by a owl:ObjectProperty ;
+    rdfs:label "is mentioned by"@en ;
+    owl:equivalentProperty cco:is_mentioned_by .
+
+mro:is_mother_in_law_of a owl:ObjectProperty ;
+    rdfs:label "is mother in-law of"@en ;
+    owl:equivalentProperty cco:is_mother_in_law_of .
+
+mro:is_mother_of a owl:ObjectProperty ;
+    rdfs:label "is mother of"@en ;
+    owl:equivalentProperty cco:is_mother_of .
+
+mro:is_nephew_of a owl:ObjectProperty ;
+    rdfs:label "is nephew of"@en ;
+    owl:equivalentProperty cco:is_nephew_of .
+
+mro:is_niece_of a owl:ObjectProperty ;
+    rdfs:label "is niece of"@en ;
+    owl:equivalentProperty cco:is_niece_of .
+
+mro:is_object_of a owl:ObjectProperty ;
+    rdfs:label "is object of"@en ;
+    owl:equivalentProperty cco:is_object_of .
+
+mro:is_organizational_context_of a owl:ObjectProperty ;
+    rdfs:label "is organizational context of"@en ;
+    owl:equivalentProperty cco:is_organizational_context_of .
+
+mro:is_output_of a owl:ObjectProperty ;
+    rdfs:label "is output of"@en ;
+    owl:equivalentProperty cco:is_output_of .
+
+mro:is_parent_of a owl:ObjectProperty ;
+    rdfs:label "is parent of"@en ;
+    owl:equivalentProperty cco:is_parent_of .
+
+mro:is_part_of_process a owl:ObjectProperty ;
+    rdfs:label "is part of process"@en ;
+    owl:equivalentProperty cco:is_part_of_process .
+
+mro:is_paternal_aunt_of a owl:ObjectProperty ;
+    rdfs:label "is paternal aunt of"@en ;
+    owl:equivalentProperty cco:is_paternal_aunt_of .
+
+mro:is_paternal_first_cousin_of a owl:ObjectProperty ;
+    rdfs:label "is paternal first cousin of"@en ;
+    owl:equivalentProperty cco:is_paternal_first_cousin_of .
+
+mro:is_paternal_grandfather_of a owl:ObjectProperty ;
+    rdfs:label "is paternal grandfather of"@en ;
+    owl:equivalentProperty cco:is_paternal_grandfather_of .
+
+mro:is_paternal_grandmother_of a owl:ObjectProperty ;
+    rdfs:label "is paternal grandmother of"@en ;
+    owl:equivalentProperty cco:is_paternal_grandmother_of .
+
+mro:is_paternal_uncle_of a owl:ObjectProperty ;
+    rdfs:label "is paternal uncle of"@en ;
+    owl:equivalentProperty cco:is_paternal_uncle_of .
+
+mro:is_permitted_by a owl:ObjectProperty ;
+    rdfs:label "is permitted by"@en ;
+    owl:equivalentProperty cco:is_permitted_by .
+
+mro:is_predecessor_of a owl:ObjectProperty ;
+    rdfs:label "is predecessor of"@en ;
+    owl:equivalentProperty cco:is_predecessor_of .
+
+mro:is_prohibited_by a owl:ObjectProperty ;
+    rdfs:label "is prohibited by"@en ;
+    owl:equivalentProperty cco:is_prohibited_by .
+
+mro:is_reference_system_of a owl:ObjectProperty ;
+    rdfs:label "is reference system of"@en ;
+    owl:equivalentProperty cco:is_reference_system_of .
+
+mro:is_required_by a owl:ObjectProperty ;
+    rdfs:label "is required by"@en ;
+    owl:equivalentProperty cco:is_required_by .
+
+mro:is_second_cousin_of a owl:ObjectProperty ;
+    rdfs:label "is second cousin of"@en ;
+    owl:equivalentProperty cco:is_second_cousin_of .
+
+mro:is_sibling_of a owl:ObjectProperty ;
+    rdfs:label "is sibling of"@en ;
+    owl:equivalentProperty cco:is_sibling_of .
+
+mro:is_sister_in_law_of a owl:ObjectProperty ;
+    rdfs:label "is sister-in-law of"@en ;
+    owl:equivalentProperty cco:is_sister_in_law_of .
+
+mro:is_sister_of a owl:ObjectProperty ;
+    rdfs:label "is sister of"@en ;
+    owl:equivalentProperty cco:is_sister_of .
+
+mro:is_site_of a owl:ObjectProperty ;
+    rdfs:label "is site of"@en ;
+    owl:equivalentProperty cco:is_site_of .
+
+mro:is_son_in_law_of a owl:ObjectProperty ;
+    rdfs:label "is son in-law of"@en ;
+    owl:equivalentProperty cco:is_son_in_law_of .
+
+mro:is_son_of a owl:ObjectProperty ;
+    rdfs:label "is son of"@en ;
+    owl:equivalentProperty cco:is_son_of .
+
+mro:is_spouse_of a owl:ObjectProperty ;
+    rdfs:label "is spouse of"@en ;
+    owl:equivalentProperty cco:is_spouse_of .
+
+mro:is_starting_instant_of a owl:ObjectProperty ;
+    rdfs:label "is starting instant of"@en ;
+    owl:equivalentProperty cco:is_starting_instant_of .
+
+mro:is_step_brother_of a owl:ObjectProperty ;
+    rdfs:label "is step-brother of"@en ;
+    owl:equivalentProperty cco:is_step_brother_of .
+
+mro:is_step_sibling_of a owl:ObjectProperty ;
+    rdfs:label "is step-sibling of"@en ;
+    owl:equivalentProperty cco:is_step_sibling_of .
+
+mro:is_step_sister_of a owl:ObjectProperty ;
+    rdfs:label "is step-sister of"@en ;
+    owl:equivalentProperty cco:is_step_sister_of .
+
+mro:is_subject_of a owl:ObjectProperty ;
+    rdfs:label "is subject of"@en ;
+    owl:equivalentProperty cco:is_subject_of .
+
+mro:is_subordinate_role_to a owl:ObjectProperty ;
+    rdfs:label "is subordinate role to"@en ;
+    owl:equivalentProperty cco:is_subordinate_role_to .
+
+mro:is_subsidiary_of a owl:ObjectProperty ;
+    rdfs:label "is subsidiary of"@en ;
+    owl:equivalentProperty cco:is_subsidiary_of .
+
+mro:is_successor_of a owl:ObjectProperty ;
+    rdfs:label "is successor of"@en ;
+    owl:equivalentProperty cco:is_successor_of .
+
+mro:is_supervised_by a owl:ObjectProperty ;
+    rdfs:label "is supervised by"@en ;
+    owl:equivalentProperty cco:is_supervised_by .
+
+mro:is_temporal_region_of a owl:ObjectProperty ;
+    rdfs:label "is temporal region of"@en ;
+    owl:equivalentProperty cco:is_temporal_region_of .
+
+mro:is_third_cousin_of a owl:ObjectProperty ;
+    rdfs:label "is third cousin of"@en ;
+    owl:equivalentProperty cco:is_third_cousin_of .
+
+mro:is_uncle_of a owl:ObjectProperty ;
+    rdfs:label "is uncle of"@en ;
+    owl:equivalentProperty cco:is_uncle_of .
+
+mro:is_used_by a owl:ObjectProperty ;
+    rdfs:label "is used by"@en ;
+    owl:equivalentProperty cco:is_used_by .
+
+mro:is_wife_of a owl:ObjectProperty ;
+    rdfs:label "is wife of"@en ;
+    owl:equivalentProperty cco:is_wife_of .
+
+mro:language_used_in a owl:ObjectProperty ;
+    rdfs:label "language used in"@en ;
+    owl:equivalentProperty cco:language_used_in .
+
+mro:nontangential_part_of a owl:ObjectProperty ;
+    rdfs:label "nontangential part of"@en ;
+    owl:equivalentProperty cco:nontangential_part_of .
+
+mro:occurs_at a owl:ObjectProperty ;
+    rdfs:label "occurs at"@en ;
+    owl:equivalentProperty cco:occurs_at .
+
+mro:occurs_on a owl:ObjectProperty ;
+    rdfs:label "occurs on"@en ;
+    owl:equivalentProperty cco:occurs_on .
+
+mro:partially_overlaps_with a owl:ObjectProperty ;
+    rdfs:label "partially overlaps with"@en ;
+    owl:equivalentProperty cco:partially_overlaps_with .
+
+mro:permits a owl:ObjectProperty ;
+    rdfs:label "permits"@en ;
+    owl:equivalentProperty cco:permits .
+
+mro:prescribed_by a owl:ObjectProperty ;
+    rdfs:label "prescribed by"@en ;
+    owl:equivalentProperty cco:prescribed_by .
+
+mro:prescribes a owl:ObjectProperty ;
+    rdfs:label "prescribes"@en ;
+    owl:equivalentProperty cco:prescribes .
+
+mro:process_preceded_by a owl:ObjectProperty ;
+    rdfs:label "process preceded by"@en ;
+    owl:equivalentProperty cco:process_preceded_by .
+
+mro:process_precedes a owl:ObjectProperty ;
+    rdfs:label "process precedes"@en ;
+    owl:equivalentProperty cco:process_precedes .
+
+mro:process_started_by a owl:ObjectProperty ;
+    rdfs:label "process started by"@en ;
+    owl:equivalentProperty cco:process_started_by .
+
+mro:process_starts a owl:ObjectProperty ;
+    rdfs:label "process starts"@en ;
+    owl:equivalentProperty cco:process_starts .
+
+mro:prohibits a owl:ObjectProperty ;
+    rdfs:label "prohibits"@en ;
+    owl:equivalentProperty cco:prohibits .
+
+mro:quality_of_aggregate a owl:ObjectProperty ;
+    rdfs:label "quality of aggregate"@en ;
+    owl:equivalentProperty cco:quality_of_aggregate .
+
+mro:receives a owl:ObjectProperty ;
+    rdfs:label "receives"@en ;
+    owl:equivalentProperty cco:receives .
+
+mro:represented_by a owl:ObjectProperty ;
+    rdfs:label "represented by"@en ;
+    owl:equivalentProperty cco:represented_by .
+
+mro:represents a owl:ObjectProperty ;
+    rdfs:label "represents"@en ;
+    owl:equivalentProperty cco:represents .
+
+mro:requires a owl:ObjectProperty ;
+    rdfs:label "requires"@en ;
+    owl:equivalentProperty cco:requires .
+
+mro:role_of_aggregate a owl:ObjectProperty ;
+    rdfs:label "role of aggregate"@en ;
+    owl:equivalentProperty cco:role_of_aggregate .
+
+mro:sends a owl:ObjectProperty ;
+    rdfs:label "sends"@en ;
+    owl:equivalentProperty cco:sends .
+
+mro:spatial_part_of a owl:ObjectProperty ;
+    rdfs:label "spatial part of"@en ;
+    owl:equivalentProperty cco:spatial_part_of .
+
+mro:supervises a owl:ObjectProperty ;
+    rdfs:label "supervises"@en ;
+    owl:equivalentProperty cco:supervises .
+
+mro:tangential_part_of a owl:ObjectProperty ;
+    rdfs:label "tangential part of"@en ;
+    owl:equivalentProperty cco:tangential_part_of .
+
+mro:time_zone_identifier_used_by a owl:ObjectProperty ;
+    rdfs:label "time zone identifier used by"@en ;
+    owl:equivalentProperty cco:time_zone_identifier_used_by .
+
+mro:uses a owl:ObjectProperty ;
+    rdfs:label "uses"@en ;
+    owl:equivalentProperty cco:uses .
+
+mro:uses_geospatial_coordinate_reference_system a owl:ObjectProperty ;
+    rdfs:label "uses geospatial coordinate reference system"@en ;
+    owl:equivalentProperty cco:uses_geospatial_coordinate_reference_system .
+
+mro:uses_language a owl:ObjectProperty ;
+    rdfs:label "uses language"@en ;
+    owl:equivalentProperty cco:uses_language .
+
+mro:uses_measurement_unit a owl:ObjectProperty ;
+    rdfs:label "uses measurement unit"@en ;
+    owl:equivalentProperty cco:uses_measurement_unit .
+
+mro:uses_reference_system a owl:ObjectProperty ;
+    rdfs:label "uses reference system"@en ;
+    owl:equivalentProperty cco:uses_reference_system .
+
+mro:uses_time_zone_identifier a owl:ObjectProperty ;
+    rdfs:label "uses time zone identifier"@en ;
+    owl:equivalentProperty cco:uses_time_zone_identifier .
+
